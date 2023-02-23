@@ -1,0 +1,54 @@
+body {
+    position: absolute;
+    background: #1C1C1C;
+}
+p {
+    color: #55F991;
+    text-align: center;
+    size: 16px;
+    line-height: 32px;
+    font-weight: 500;
+    font-family: 'Inter';
+    width: 180px;
+    height: 32px;
+    top: 400px;
+    
+}
+button {
+    flex: row;
+    background: #10B981;
+    padding: 9px 17px 9px 15px;
+    border-radius: 6px;
+    border: none;
+}
+h3 {
+    color: #D5D4D8;
+}
+.b-content {
+     border: solid 2px;
+     background: #1F2937;
+     top: 642px;
+     left: 64px;
+     padding: 115px 144px 355px 52px;
+}
+#head-el {
+    font-family: 'Karla';
+}
+#random-pass {
+    color: #4ADF86;
+}
+
+#pass-one, #pass-two {
+    border: solid 1px #273549;
+    border-radius: 6px;
+    background: #273549;
+    width: 211px;
+    height: 39px;
+    
+}
+
+#passwords-el {
+   flex: ;
+   position: ;
+}
+
