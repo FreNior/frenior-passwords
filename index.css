@@ -1,71 +1,81 @@
-body {
-    position: absolute;
-    background: #1C1C1C;
-    left: 20%;
-    right: 10%;
-
-}
-footer {
-    color: #D5D4D8;
-    font-family: 'Lucida Sans Unicode';
-    font-size: 1.4vh;
-    padding: 1vh 1vh;
-    
-}
-p {
-    color: #55F991;
-    text-align: center;
-    size: 16px;
-    line-height: 32px;
-    font-weight: 500;
-    font-family: 'Inter';
-    width: 180px;
-    height: 32px;
-    top: 400px;
-    
-}
-button {
-    flex: row;
-    background: #10B981;
-    padding: 9px 17px 9px 15px;
-    border-radius: 6px;
-    border: none;
-}
-h3 {
-    color: #D5D4D8;
-}
-.b-content {
-    border-radius: 6px;
-    flex-direction: column;
-    align-content: center;
-    width: 500px;
-    height: 400px;
-    top: 64px;
-    left: 62px;
-    padding-left: 50px;
-    border: solid 2px;
-    background: #1F2937;
-    align-content: center;
-    
-}
-#head-el {
+* {
+    margin: 0;
+    padding: 0;
     font-family: 'Karla';
 }
-#random-pass {
-    color: #4ADF86;
+body {
+    background-color: #1c1c1c;
+        padding: 1em;
+        margin: 2em;
+    }
+
+h1 {
+    color: #fff;
 }
 
-#pass-one, #pass-two {
-    border: solid 1px #273549;
-    border-radius: 6px;
-    background: #273549;
+p {
+    color: #fff;
+    }
+    
+        .main-container {
+            display: flex;
+            background-color: #1f2937;
+            width: 550px;
+            height: 550px;
+            margin: 0 auto;
+            padding-left: 3em;
+        }
+        .main-container p {
+            margin-bottom: 1em;
+        }
+.main-container span {
+    color: #4adf86;
+}
+.dashline {
+    border: 2px solid #2f3e53;
+    margin: 2em 0;
+}
+.passwords-container {
+}
+
+.pass-element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pass-element:first-child {
+    margin-top: 4em;
+}
+
+.pass-element .btn {
+    margin-left: 2em;
+    padding: 7px 9px;
+
+}
+
+#password-one,
+#password-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 211px;
     height: 39px;
+        background-color: #273549;
+            border-radius: 6px;
+            color: #55f991;
+        }
+        
+        .btn {
+            background-color: #10b981;
+            color: #fff;
+            border-radius: 6px;
+            border: none;
+            transition: 0.6s;
+            padding: 7px 9px;
     
 }
 
-#passwords-el {
-   flex: ;
-   position: ;
+.btn:hover {
+    background-color: #1f2937;
+    color: #10b981;
 }
-
